@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "dev": "node --watch index.js"
+    "dev": "node --watch index.js",
+    "ai:python": "python ../python_service/main.py"
   },
   "dependencies": {
     "cors": "^2.8.5",

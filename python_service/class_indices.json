@@ -1,0 +1,344 @@
+[
+  {
+    "index": 0,
+    "class_name": "Apple___Apple_scab",
+    "crop": "Apple",
+    "condition": "Apple Scab",
+    "pathogen": "Venturia inaequalis (Fungus)",
+    "status": "Diseased",
+    "severity": "Moderate"
+  },
+  {
+    "index": 1,
+    "class_name": "Apple___Black_rot",
+    "crop": "Apple",
+    "condition": "Black Rot",
+    "pathogen": "Botryosphaeria obtusa (Fungus)",
+    "status": "Diseased",
+    "severity": "High"
+  },
+  {
+    "index": 2,
+    "class_name": "Apple___Cedar_apple_rust",
+    "crop": "Apple",
+    "condition": "Cedar Apple Rust",
+    "pathogen": "Gymnosporangium juniperi-virginianae",
+    "status": "Diseased",
+    "severity": "Moderate"
+  },
+  {
+    "index": 3,
+    "class_name": "Apple___healthy",
+    "crop": "Apple",
+    "condition": "Healthy Apple Foliage",
+    "pathogen": "None (Healthy)",
+    "status": "Healthy",
+    "severity": "None"
+  },
+  {
+    "index": 4,
+    "class_name": "Blueberry___healthy",
+    "crop": "Blueberry",
+    "condition": "Healthy Blueberry",
+    "pathogen": "None (Healthy)",
+    "status": "Healthy",
+    "severity": "None"
+  },
+  {
+    "index": 5,
+    "class_name": "Cherry_(including_sour)___Powdery_mildew",
+    "crop": "Cherry",
+    "condition": "Powdery Mildew",
+    "pathogen": "Podosphaera clandestina (Fungus)",
+    "status": "Diseased",
+    "severity": "Moderate"
+  },
+  {
+    "index": 6,
+    "class_name": "Cherry_(including_sour)___healthy",
+    "crop": "Cherry",
+    "condition": "Healthy Cherry Foliage",
+    "pathogen": "None (Healthy)",
+    "status": "Healthy",
+    "severity": "None"
+  },
+  {
+    "index": 7,
+    "class_name": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+    "crop": "Corn (Maize)",
+    "condition": "Gray Leaf Spot",
+    "pathogen": "Cercospora zeae-maydis (Fungus)",
+    "status": "Diseased",
+    "severity": "High"
+  },
+  {
+    "index": 8,
+    "class_name": "Corn_(maize)___Common_rust_",
+    "crop": "Corn (Maize)",
+    "condition": "Common Rust",
+    "pathogen": "Puccinia sorghi (Fungus)",
+    "status": "Diseased",
+    "severity": "Moderate"
+  },
+  {
+    "index": 9,
+    "class_name": "Corn_(maize)___Northern_Leaf_Blight",
+    "crop": "Corn (Maize)",
+    "condition": "Northern Leaf Blight",
+    "pathogen": "Exserohilum turcicum (Fungus)",
+    "status": "Diseased",
+    "severity": "High"
+  },
+  {
+    "index": 10,
+    "class_name": "Corn_(maize)___healthy",
+    "crop": "Corn (Maize)",
+    "condition": "Healthy Corn Foliage",
+    "pathogen": "None (Healthy)",
+    "status": "Healthy",
+    "severity": "None"
+  },
+  {
+    "index": 11,
+    "class_name": "Grape___Black_rot",
+    "crop": "Grape",
+    "condition": "Black Rot",
+    "pathogen": "Guignardia bidwellii (Fungus)",
+    "status": "Diseased",
+    "severity": "High"
+  },
+  {
+    "index": 12,
+    "class_name": "Grape___Esca_(Black_Measles)",
+    "crop": "Grape",
+    "condition": "Esca (Black Measles)",
+    "pathogen": "Phaeomoniella chlamydospora & Fomitiporia mediterranea",
+    "status": "Diseased",
+    "severity": "High"
+  },
+  {
+    "index": 13,
+    "class_name": "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
+    "crop": "Grape",
+    "condition": "Leaf Blight (Isariopsis Spot)",
+    "pathogen": "Pseudocercospora cladosporioides (Fungus)",
+    "status": "Diseased",
+    "severity": "Moderate"
+  },
+  {
+    "index": 14,
+    "class_name": "Grape___healthy",
+    "crop": "Grape",
+    "condition": "Healthy Grape Foliage",
+    "pathogen": "None (Healthy)",
+    "status": "Healthy",
+    "severity": "None"
+  },
+  {
+    "index": 15,
+    "class_name": "Orange___Haunglongbing_(Citrus_greening)",
+    "crop": "Orange / Citrus",
+    "condition": "Citrus Greening (Huanglongbing)",
+    "pathogen": "Candidatus Liberibacter asiaticus (Bacteria via Psyllid)",
+    "status": "Diseased",
+    "severity": "High"
+  },
+  {
+    "index": 16,
+    "class_name": "Peach___Bacterial_spot",
+    "crop": "Peach",
+    "condition": "Bacterial Spot",
+    "pathogen": "Xanthomonas arboricola pv. pruni (Bacteria)",
+    "status": "Diseased",
+    "severity": "Moderate"
+  },
+  {
+    "index": 17,
+    "class_name": "Peach___healthy",
+    "crop": "Peach",
+    "condition": "Healthy Peach Foliage",
+    "pathogen": "None (Healthy)",
+    "status": "Healthy",
+    "severity": "None"
+  },
+  {
+    "index": 18,
+    "class_name": "Pepper,_bell___Bacterial_spot",
+    "crop": "Bell Pepper",
+    "condition": "Bacterial Spot",
+    "pathogen": "Xanthomonas euvesicatoria (Bacteria)",
+    "status": "Diseased",
+    "severity": "Moderate"
+  },
+  {
+    "index": 19,
+    "class_name": "Pepper,_bell___healthy",
+    "crop": "Bell Pepper",
+    "condition": "Healthy Bell Pepper",
+    "pathogen": "None (Healthy)",
+    "status": "Healthy",
+    "severity": "None"
+  },
+  {
+    "index": 20,
+    "class_name": "Potato___Early_blight",
+    "crop": "Potato",
+    "condition": "Early Blight",
+    "pathogen": "Alternaria solani (Fungus)",
+    "status": "Diseased",
+    "severity": "Moderate"
+  },
+  {
+    "index": 21,
+    "class_name": "Potato___Late_blight",
+    "crop": "Potato",
+    "condition": "Late Blight",
+    "pathogen": "Phytophthora infestans (Oomycete)",
+    "status": "Diseased",
+    "severity": "High"
+  },
+  {
+    "index": 22,
+    "class_name": "Potato___healthy",
+    "crop": "Potato",
+    "condition": "Healthy Potato Foliage",
+    "pathogen": "None (Healthy)",
+    "status": "Healthy",
+    "severity": "None"
+  },
+  {
+    "index": 23,
+    "class_name": "Raspberry___healthy",
+    "crop": "Raspberry",
+    "condition": "Healthy Raspberry",
+    "pathogen": "None (Healthy)",
+    "status": "Healthy",
+    "severity": "None"
+  },
+  {
+    "index": 24,
+    "class_name": "Soybean___healthy",
+    "crop": "Soybean",
+    "condition": "Healthy Soybean",
+    "pathogen": "None (Healthy)",
+    "status": "Healthy",
+    "severity": "None"
+  },
+  {
+    "index": 25,
+    "class_name": "Squash___Powdery_mildew",
+    "crop": "Squash / Cucurbits",
+    "condition": "Powdery Mildew",
+    "pathogen": "Podosphaera xanthii (Fungus)",
+    "status": "Diseased",
+    "severity": "Moderate"
+  },
+  {
+    "index": 26,
+    "class_name": "Strawberry___Leaf_scorch",
+    "crop": "Strawberry",
+    "condition": "Leaf Scorch",
+    "pathogen": "Diplocarpon earlianum (Fungus)",
+    "status": "Diseased",
+    "severity": "Moderate"
+  },
+  {
+    "index": 27,
+    "class_name": "Strawberry___healthy",
+    "crop": "Strawberry",
+    "condition": "Healthy Strawberry",
+    "pathogen": "None (Healthy)",
+    "status": "Healthy",
+    "severity": "None"
+  },
+  {
+    "index": 28,
+    "class_name": "Tomato___Bacterial_spot",
+    "crop": "Tomato",
+    "condition": "Bacterial Spot",
+    "pathogen": "Xanthomonas vesicatoria (Bacteria)",
+    "status": "Diseased",
+    "severity": "Moderate"
+  },
+  {
+    "index": 29,
+    "class_name": "Tomato___Early_blight",
+    "crop": "Tomato",
+    "condition": "Early Blight",
+    "pathogen": "Alternaria solani (Fungus)",
+    "status": "Diseased",
+    "severity": "Moderate"
+  },
+  {
+    "index": 30,
+    "class_name": "Tomato___Late_blight",
+    "crop": "Tomato",
+    "condition": "Late Blight",
+    "pathogen": "Phytophthora infestans (Oomycete)",
+    "status": "Diseased",
+    "severity": "High"
+  },
+  {
+    "index": 31,
+    "class_name": "Tomato___Leaf_Mold",
+    "crop": "Tomato",
+    "condition": "Leaf Mold",
+    "pathogen": "Passalora fulva (Fungus)",
+    "status": "Diseased",
+    "severity": "Moderate"
+  },
+  {
+    "index": 32,
+    "class_name": "Tomato___Septoria_leaf_spot",
+    "crop": "Tomato",
+    "condition": "Septoria Leaf Spot",
+    "pathogen": "Septoria lycopersici (Fungus)",
+    "status": "Diseased",
+    "severity": "Moderate"
+  },
+  {
+    "index": 33,
+    "class_name": "Tomato___Spider_mites Two-spotted_spider_mite",
+    "crop": "Tomato",
+    "condition": "Spider Mites (Two-spotted)",
+    "pathogen": "Tetranychus urticae (Acarid pest)",
+    "status": "Diseased",
+    "severity": "Moderate"
+  },
+  {
+    "index": 34,
+    "class_name": "Tomato___Target_Spot",
+    "crop": "Tomato",
+    "condition": "Target Spot",
+    "pathogen": "Corynespora cassiicola (Fungus)",
+    "status": "Diseased",
+    "severity": "Moderate"
+  },
+  {
+    "index": 35,
+    "class_name": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+    "crop": "Tomato",
+    "condition": "Yellow Leaf Curl Virus",
+    "pathogen": "Begomovirus (TYLCV)",
+    "status": "Diseased",
+    "severity": "High"
+  },
+  {
+    "index": 36,
+    "class_name": "Tomato___Tomato_mosaic_virus",
+    "crop": "Tomato",
+    "condition": "Tomato Mosaic Virus",
+    "pathogen": "Tobamovirus (ToMV)",
+    "status": "Diseased",
+    "severity": "High"
+  },
+  {
+    "index": 37,
+    "class_name": "Tomato___healthy",
+    "crop": "Tomato",
+    "condition": "Healthy Tomato Foliage",
+    "pathogen": "None (Healthy)",
+    "status": "Healthy",
+    "severity": "None"
+  }
+]
