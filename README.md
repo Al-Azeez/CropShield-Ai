@@ -19,6 +19,4 @@ A website that lets users upload crop leaf images and view an AI prediction of p
 
 Install the dependencies and start the website using the project’s setup instructions.
 
-## Disclaimer
 
-Predictions are informational and should be confirmed by an agricultural expert.
