@@ -5,8 +5,8 @@ A website that lets users upload crop leaf images and view an AI prediction of p
 ## Technologies
 
 - Frontend: [HTML, CSS, JavaScript / React]
-- Backend: [Flask / Django / Node.js]
-- AI model: [TensorFlow / PyTorch / other]
+- Backend: [Fast api/Express.js / Node.js]
+- AI model: [TensorFlow / other]
 - Image upload and prediction: [briefly describe how they work]
 
 ## Features
