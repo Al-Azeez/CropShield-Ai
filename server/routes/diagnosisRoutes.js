@@ -12,7 +12,12 @@ import {
 const router = express.Router();
 
 // Multer storage setup for image uploads
-const uploadDir = path.resolve('uploads');
+// Configure upload directory for local and Vercel environments
+const uploadDir = process.env.VERCEL
+  ? '/tmp/cropshield-uploads'
+  : path.resolve('uploads');
+
+// Create directory if it does not exist
 if (!fs.existsSync(uploadDir)) {
   fs.mkdirSync(uploadDir, { recursive: true });
 }
