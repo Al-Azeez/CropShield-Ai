@@ -24,8 +24,8 @@ connectDB();
 
 // Middlewares
 app.use(cors({
-  origin: '*', // Allow all during dev (including port 3231)
-  credentials: true
+    origin: process.env.CLIENT_URL,
+    credentials: true
 }));
 app.use(morgan('dev'));
 app.use(express.json({ limit: '50mb' }));
