@@ -14,7 +14,10 @@ import {
   TrendingUp,
   Leaf,
   Layers,
-  FileCheck
+  FileCheck,
+  Play,
+  Video,
+  ExternalLink
 } from 'lucide-react';
 import { useScan } from '../context/ScanContext.jsx';
 import { SeverityBadge } from '../components/SeverityBadge.jsx';
@@ -156,6 +159,50 @@ export const HomePage = ({ setActivePage, onTriggerScanWithSample, onOpenUpload,
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* 2.5 PRODUCT DEMO VIDEO SECTION */}
+      <section className="max-w-5xl mx-auto px-4">
+        <div className="glass-card rounded-3xl p-6 sm:p-8 space-y-6 border border-emerald-500/30 bg-gradient-to-b from-forest-card/90 via-forest-base/95 to-forest-dark relative overflow-hidden shadow-2xl shadow-emerald-950/40">
+          
+          {/* Header */}
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-forest-border/60 pb-5">
+            <div className="space-y-1">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-semibold">
+                <Video className="w-3.5 h-3.5" />
+                <span>{t('home.videoBadge', 'System Demonstration & Overview')}</span>
+              </div>
+              <h2 className="text-xl sm:text-3xl font-extrabold text-white font-heading">
+                {t('home.videoTitle', 'Watch CROPSHIELD-AI in Action')}
+              </h2>
+              <p className="text-xs sm:text-sm text-slate-300">
+                {t('home.videoSubtitle', 'See how our intelligent computer vision engine identifies leaf diseases, analyzes symptoms, and generates actionable treatment plans in real time.')}
+              </p>
+            </div>
+
+            <a
+              href="https://drive.google.com/file/d/1BsNoHjaow_3-TAXbjpmjFeEYSv7iMlDx/view?usp=drivesdk"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-forest-dark/80 hover:bg-forest-border border border-forest-border hover:border-emerald-500/40 text-emerald-300 text-xs font-bold transition-all shrink-0 self-start sm:self-auto hover:scale-105"
+            >
+              <span>{t('home.openFullVideo', 'Open in Google Drive')}</span>
+              <ExternalLink className="w-3.5 h-3.5" />
+            </a>
+          </div>
+
+          {/* Video Player Frame */}
+          <div className="relative aspect-video w-full rounded-2xl overflow-hidden bg-black/90 border border-emerald-500/20 shadow-2xl">
+            <iframe
+              src="https://drive.google.com/file/d/1BsNoHjaow_3-TAXbjpmjFeEYSv7iMlDx/preview"
+              title="CropShield AI Demonstration Video"
+              className="w-full h-full border-0 rounded-2xl"
+              allow="autoplay; encrypted-media; fullscreen"
+              allowFullScreen
+            />
+          </div>
+
         </div>
       </section>
 
