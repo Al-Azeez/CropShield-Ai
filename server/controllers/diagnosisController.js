@@ -7,9 +7,11 @@ export const analyzePlantImage = async (req, res) => {
     const { cropId, userNotes, targetCondition } = req.body;
 
     // Handle uploaded file via Multer
-    if (req.file) {
-      // In local dev, serve file via static endpoint or construct URL
-      imageUrl = `/uploads/${req.file.filename}`;
+   if (req.file) {
+  const backendUrl = process.env.BACKEND_URL;
+
+  imageUrl = `${backendUrl}/uploads/${req.file.filename}`;
+  }
     } else if (req.body.imageUrl) {
       imageUrl = req.body.imageUrl;
     } else if (req.body.imageBase64) {
